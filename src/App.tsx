@@ -14,8 +14,8 @@ import { details, favourites, home } from "./utils/constants";
 const App = () => {
     return (
         <>
-        <HomeContainer>
-            <Header />
+            <HomeContainer>
+                <Header />
             </HomeContainer>
             <Switch>
                 <Route exact path={['/', `${home}`]}>

@@ -32,6 +32,7 @@ const MovieCard = ({ movie }: PropsMovieCard) => {
     };
     
     return (
+        
         <MovieCardContainer>
             <Col onClick={() => {
                 history.push(details);
